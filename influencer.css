@@ -54,9 +54,22 @@ html {
         background-repeat: no-repeat no-repeat;
         background-position: right;
         background-color: white;
-
-
 }
+
+/*Container for center console*/
+.container {
+    position: relative;
+    width: 75%;
+    left: 12.5%;
+    background-color: rgba(130, 20, 120,);
+}
+
+/* header image properties */
+.masthead img {
+    /* image will scale to width of container & maintain aspect ratio */
+    width: 100%;
+}
+
 /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
 /* Container holding the image and the text */
     .button-container {
@@ -132,36 +145,6 @@ html {
       background: rgba(255,255,255,0);
       }
 
-/*Container for center console*/
-.container {
-    position: relative;
-    width: 75%;
-    left: 12.5%;
-    background-color: rgba(130, 20, 120,);
-}
-
-/*Jorge's Button Creation*/
-button {
-  background-image: url(images/);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  /* put the height and width of your image here */
-  height: 200px;
-  width: 100%;
-  border: none;
-}
-
-button span {
-  display: none;
-}
-
-/* header image properties */
-.masthead img {
-    /* image will scale to width of container & maintain aspect ratio */
-    width: 100%;
-}
-
-
 /* links to patreon, homepage etc. */
 
 .contact-container {
@@ -192,7 +175,7 @@ button span {
 
      .contact-item:hover {
             text-decoration: underline dotted;
-            text-shadow: 1px 1px red;
+            text-shadow: 1px 1px #bf9000;;
             background: rgba(255,255,255,0.3);
 
 
@@ -238,12 +221,6 @@ button span {
         text-decoration: none;
         background: rgba(255,255,255,0);
 }
-
-}
-
-
-
-
 
      /* link style after visited */
         .item:visited {
